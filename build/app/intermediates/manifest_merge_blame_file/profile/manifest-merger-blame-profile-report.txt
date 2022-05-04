@@ -1,0 +1,211 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.todo_app_firestore_example"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\profile\AndroidManifest.xml:6:5-66
+14-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\profile\AndroidManifest.xml:6:22-64
+15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+16    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-firestore:22.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\5d9e02a6aa65128096fb00afa1babf05\jetified-firebase-firestore-22.0.1\AndroidManifest.xml:13:5-79
+17-->[com.google.firebase:firebase-firestore:22.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\5d9e02a6aa65128096fb00afa1babf05\jetified-firebase-firestore-22.0.1\AndroidManifest.xml:13:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[com.google.android.gms:play-services-measurement-api:18.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\0d64606b043480556ed7dfd94cb9adc2\play-services-measurement-api-18.0.1\AndroidManifest.xml:24:5-68
+18-->[com.google.android.gms:play-services-measurement-api:18.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\0d64606b043480556ed7dfd94cb9adc2\play-services-measurement-api-18.0.1\AndroidManifest.xml:24:22-65
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+19-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\1de7fe6c588e09f1f2ab6d92293ed0d2\play-services-measurement-18.0.1\AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\1de7fe6c588e09f1f2ab6d92293ed0d2\play-services-measurement-18.0.1\AndroidManifest.xml:26:22-107
+20
+21    <application
+21-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:3:4-40:19
+22        android:name="androidx.multidex.MultiDexApplication"
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.1.0] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\44b1706abe044cd42dcac5be863451ed\core-1.1.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:5:9-43
+26        android:label="todo_app_firestore_example" >
+26-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:4:9-51
+27        <activity
+27-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:6:9-34:20
+28            android:name="com.example.todo_app_firestore_example.MainActivity"
+28-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:7:13-41
+29            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+29-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:10:13-163
+30            android:hardwareAccelerated="true"
+30-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:11:13-47
+31            android:launchMode="singleTop"
+31-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:8:13-43
+32            android:theme="@style/LaunchTheme"
+32-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:9:13-47
+33            android:windowSoftInputMode="adjustResize" >
+33-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:12:13-55
+34
+35            <!--
+36                 Specifies an Android theme to apply to this Activity as soon as
+37                 the Android process has started. This theme is visible to the user
+38                 while the Flutter UI initializes. After that, this theme continues
+39                 to determine the Window background behind the Flutter UI.
+40            -->
+41            <meta-data
+41-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:17:13-20:17
+42                android:name="io.flutter.embedding.android.NormalTheme"
+42-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:18:15-70
+43                android:resource="@style/NormalTheme" />
+43-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:19:15-52
+44            <!--
+45                 Displays an Android View that continues showing the launch screen
+46                 Drawable until Flutter paints its first frame, then this splash
+47                 screen fades out. A splash screen is useful to avoid any visual
+48                 gap between the end of Android's launch screen and the painting of
+49                 Flutter's first frame.
+50            -->
+51            <meta-data
+51-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:26:13-29:17
+52                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+52-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:27:15-79
+53                android:resource="@drawable/launch_background" />
+53-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:28:15-61
+54
+55            <intent-filter>
+55-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:30:13-33:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:31:17-68
+56-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:31:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:32:17-76
+58-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:32:27-74
+59            </intent-filter>
+60        </activity>
+61        <!--
+62             Don't delete the meta-data below.
+63             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+64        -->
+65        <meta-data
+65-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:37:9-39:33
+66            android:name="flutterEmbedding"
+66-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:38:13-44
+67            android:value="2" />
+67-->C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\android\app\src\main\AndroidManifest.xml:39:13-30
+68
+69        <service
+69-->[:cloud_firestore] C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\build\cloud_firestore\intermediates\library_manifest\profile\AndroidManifest.xml:8:9-12:19
+70            android:name="com.google.firebase.components.ComponentDiscoveryService"
+70-->[:cloud_firestore] C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\build\cloud_firestore\intermediates\library_manifest\profile\AndroidManifest.xml:8:18-89
+71            android:directBootAware="true"
+71-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\70a450f396989e0a35f4cbf93b50c55f\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+72            android:exported="false" >
+72-->[com.google.firebase:firebase-firestore:22.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\5d9e02a6aa65128096fb00afa1babf05\jetified-firebase-firestore-22.0.1\AndroidManifest.xml:19:13-37
+73            <meta-data
+73-->[:cloud_firestore] C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\build\cloud_firestore\intermediates\library_manifest\profile\AndroidManifest.xml:9:13-11:85
+74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+74-->[:cloud_firestore] C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\build\cloud_firestore\intermediates\library_manifest\profile\AndroidManifest.xml:10:17-134
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[:cloud_firestore] C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\build\cloud_firestore\intermediates\library_manifest\profile\AndroidManifest.xml:11:17-82
+76            <meta-data
+76-->[:firebase_core] C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\build\firebase_core\intermediates\library_manifest\profile\AndroidManifest.xml:9:13-11:85
+77                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+77-->[:firebase_core] C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\build\firebase_core\intermediates\library_manifest\profile\AndroidManifest.xml:10:17-124
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[:firebase_core] C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\build\firebase_core\intermediates\library_manifest\profile\AndroidManifest.xml:11:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-firestore:22.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\5d9e02a6aa65128096fb00afa1babf05\jetified-firebase-firestore-22.0.1\AndroidManifest.xml:20:13-22:85
+80                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+80-->[com.google.firebase:firebase-firestore:22.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\5d9e02a6aa65128096fb00afa1babf05\jetified-firebase-firestore-22.0.1\AndroidManifest.xml:21:17-111
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-firestore:22.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\5d9e02a6aa65128096fb00afa1babf05\jetified-firebase-firestore-22.0.1\AndroidManifest.xml:22:17-82
+82            <meta-data
+82-->[com.google.android.gms:play-services-measurement-api:18.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\0d64606b043480556ed7dfd94cb9adc2\play-services-measurement-api-18.0.1\AndroidManifest.xml:30:13-32:85
+83                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+83-->[com.google.android.gms:play-services-measurement-api:18.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\0d64606b043480556ed7dfd94cb9adc2\play-services-measurement-api-18.0.1\AndroidManifest.xml:31:17-139
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.android.gms:play-services-measurement-api:18.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\0d64606b043480556ed7dfd94cb9adc2\play-services-measurement-api-18.0.1\AndroidManifest.xml:32:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\2c1b778f09d17c9a8a92258ee62b2bd6\firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+86                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+86-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\2c1b778f09d17c9a8a92258ee62b2bd6\firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\2c1b778f09d17c9a8a92258ee62b2bd6\firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+88            <!--
+89                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+90                clients to use it as well, by defining this registrar in their own core/common library.
+91            -->
+92            <meta-data
+92-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\70a450f396989e0a35f4cbf93b50c55f\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+93                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+93-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\70a450f396989e0a35f4cbf93b50c55f\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\70a450f396989e0a35f4cbf93b50c55f\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+95        </service>
+96
+97        <provider
+97-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\70a450f396989e0a35f4cbf93b50c55f\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+98            android:name="com.google.firebase.provider.FirebaseInitProvider"
+98-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\70a450f396989e0a35f4cbf93b50c55f\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+99            android:authorities="com.example.todo_app_firestore_example.firebaseinitprovider"
+99-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\70a450f396989e0a35f4cbf93b50c55f\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+100            android:directBootAware="true"
+100-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\70a450f396989e0a35f4cbf93b50c55f\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+101            android:exported="false"
+101-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\70a450f396989e0a35f4cbf93b50c55f\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+102            android:initOrder="100" />
+102-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\70a450f396989e0a35f4cbf93b50c55f\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+103
+104        <activity
+104-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\63333801825fa8fbd9c7151e28fb5ce4\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+105            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+105-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\63333801825fa8fbd9c7151e28fb5ce4\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+106            android:exported="false"
+106-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\63333801825fa8fbd9c7151e28fb5ce4\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+107            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+107-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\63333801825fa8fbd9c7151e28fb5ce4\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+108
+109        <receiver
+109-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\1de7fe6c588e09f1f2ab6d92293ed0d2\play-services-measurement-18.0.1\AndroidManifest.xml:29:9-33:20
+110            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+110-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\1de7fe6c588e09f1f2ab6d92293ed0d2\play-services-measurement-18.0.1\AndroidManifest.xml:30:13-85
+111            android:enabled="true"
+111-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\1de7fe6c588e09f1f2ab6d92293ed0d2\play-services-measurement-18.0.1\AndroidManifest.xml:31:13-35
+112            android:exported="false" >
+112-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\1de7fe6c588e09f1f2ab6d92293ed0d2\play-services-measurement-18.0.1\AndroidManifest.xml:32:13-37
+113        </receiver>
+114
+115        <service
+115-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\1de7fe6c588e09f1f2ab6d92293ed0d2\play-services-measurement-18.0.1\AndroidManifest.xml:35:9-38:40
+116            android:name="com.google.android.gms.measurement.AppMeasurementService"
+116-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\1de7fe6c588e09f1f2ab6d92293ed0d2\play-services-measurement-18.0.1\AndroidManifest.xml:36:13-84
+117            android:enabled="true"
+117-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\1de7fe6c588e09f1f2ab6d92293ed0d2\play-services-measurement-18.0.1\AndroidManifest.xml:37:13-35
+118            android:exported="false" />
+118-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\1de7fe6c588e09f1f2ab6d92293ed0d2\play-services-measurement-18.0.1\AndroidManifest.xml:38:13-37
+119        <service
+119-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\1de7fe6c588e09f1f2ab6d92293ed0d2\play-services-measurement-18.0.1\AndroidManifest.xml:39:9-43:72
+120            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+120-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\1de7fe6c588e09f1f2ab6d92293ed0d2\play-services-measurement-18.0.1\AndroidManifest.xml:40:13-87
+121            android:enabled="true"
+121-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\1de7fe6c588e09f1f2ab6d92293ed0d2\play-services-measurement-18.0.1\AndroidManifest.xml:41:13-35
+122            android:exported="false"
+122-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\1de7fe6c588e09f1f2ab6d92293ed0d2\play-services-measurement-18.0.1\AndroidManifest.xml:42:13-37
+123            android:permission="android.permission.BIND_JOB_SERVICE" />
+123-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\1de7fe6c588e09f1f2ab6d92293ed0d2\play-services-measurement-18.0.1\AndroidManifest.xml:43:13-69
+124
+125        <meta-data
+125-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\c097519ac8b9ceb7917f2e59d672ec8b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+126            android:name="com.google.android.gms.version"
+126-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\c097519ac8b9ceb7917f2e59d672ec8b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+127            android:value="@integer/google_play_services_version" />
+127-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nivi\.gradle\caches\transforms-2\files-2.1\c097519ac8b9ceb7917f2e59d672ec8b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+128    </application>
+129
+130</manifest>

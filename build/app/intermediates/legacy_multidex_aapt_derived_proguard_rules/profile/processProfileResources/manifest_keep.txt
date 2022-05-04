@@ -1,0 +1,4 @@
+# Referenced at C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\build\app\intermediates\merged_manifests\profile\AndroidManifest.xml:21
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\Users\Nivi\AndroidStudioProjects\todo_app_firestore_example\build\app\intermediates\merged_manifests\profile\AndroidManifest.xml:21
+-keep class androidx.multidex.MultiDexApplication { <init>(); }

@@ -1,0 +1,10 @@
+#Sat Jan 30 09:11:40 IST 2021
+path.2=classes3.dex
+path.1=classes2.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=C\:\\Users\\Nivi\\AndroidStudioProjects\\todo_app_firestore_example\\build\\app\\intermediates\\dex\\profile\\mergeDexProfile\\out\\classes3.dex
+base.1=C\:\\Users\\Nivi\\AndroidStudioProjects\\todo_app_firestore_example\\build\\app\\intermediates\\dex\\profile\\mergeDexProfile\\out\\classes2.dex
+base.0=C\:\\Users\\Nivi\\AndroidStudioProjects\\todo_app_firestore_example\\build\\app\\intermediates\\dex\\profile\\mergeDexProfile\\out\\classes.dex
